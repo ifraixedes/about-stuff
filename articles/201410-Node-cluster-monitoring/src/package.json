@@ -1,0 +1,15 @@
+{
+  "name": "201410-node-cluster-monitoring",
+  "version": "0.0.0",
+  "description": "Source code of article about controlling and monitoring NodeJS clusters",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cluster"
+  ],
+  "author": "Ivan Fraixedes <ivan@fraixed.es> (http://ivan.fraixed.es)",
+  "license": "MIT",
+  "private": true
+}
