@@ -11,5 +11,11 @@
   ],
   "author": "Ivan Fraixedes <ivan@fraixed.es> (http://ivan.fraixed.es)",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "express": "^4.9.5"
+  },
+  "devDependencies": {
+    "pm2": "^0.10.8"
+  }
 }
