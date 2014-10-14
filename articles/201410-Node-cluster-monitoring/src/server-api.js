@@ -14,11 +14,13 @@ function shutdown() {
 }
 
 app.get('/', function (req, res) {
-  res.json(data[Math.floor(Math.random() * 10)]);
+  setTimeout(function () {
+    res.json(data[Math.floor(Math.random() * 10)]);
+  }, Math.random() * 100);
 });
 
 server = app.listen(3000, function () {
-  console.log('server cluster node %s', process.pid);
+  console.log('server cluster node %s, listening on port 3000', process.pid);
 });
 
 process.on('SIGINT', shutdown);
