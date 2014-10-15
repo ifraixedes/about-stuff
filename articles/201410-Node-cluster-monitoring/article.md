@@ -58,5 +58,17 @@ On the other hand, I used [vegeta](https://github.com/tsenart/vegeta), a load te
 
 This modules is a fork of [cluster-master](https://github.com/isaacs/cluster-master), you can read in its repository what it provides on top of the original one.
 
+Require to create a configuration file, it is not possible to run you server script from the command line, so the module does not expose a command line executable and has to be used as a module.
+
+It allows to setup some options as number of workers, timeout to stop the workers and restart workers automatically when one of them dies.
+
+The cluster may be monitored (inspected) through a `repl` which is configured how to expose it in the cluster configuration object; it allows to expose `repl` over TCP connection or a UNIX socket.
+
+The `repl` exposes some objects and functions which allow to access a very basic cluster's information as number of workers, workers' ages, PIDs, however it does not offer information about the load of each worker or another live information; it also expose some function to manage the cluster, for example to resize it with a new number of workers (increasing or decreasing), stoping or killing one of them, restart the cluster (stoping and starting again all the workers), etc.
+
+The functions exposed in the `repl` plus some [events are exposed](https://github.com/jeffbski/cluster-master#events) on the `clusterMaster` object, hence it allows to response or do additional cleanup before the actions are carried out
+
+For more information about the configuration parameters and functionality, check its [README file](https://github.com/jeffbski/cluster-master/blob/master/README.md)
+
 ## Credits
 http://www.json-generator.com/ has been used to generate the JSON data file (`src/data.json`) used in the `server-api` implementation.
