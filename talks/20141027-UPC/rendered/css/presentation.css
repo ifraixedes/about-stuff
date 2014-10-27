@@ -23,3 +23,11 @@ h2 {
 p {
     font-size: 1.5em;
 }
+
+.image {
+    text-align: center;
+}
+
+.image img{
+  border-radius: 30em;
+}
