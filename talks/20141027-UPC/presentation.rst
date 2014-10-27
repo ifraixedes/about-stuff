@@ -1,3 +1,5 @@
+:css: presentation.css
+:skip-help: true
 
 .. title: My experience 2.5 years among tech startups
 
@@ -18,6 +20,10 @@ T: `@ifraixedes`_ // W: ivan.fraixed.es_
 
 ----
 
+:data-x: 500
+:data-y: 780
+:data-rotate-z: 90
+
 Let's get a definition of the 2 coolest words
 ===================================================
 
@@ -30,50 +36,41 @@ Let's get a definition of the 2 coolest words
 
 ----
 
-How I see this trending
-=======================
-
-There has always been people creating business, however in past the most of the times the most of them were small business to create a way to work in something where people could have their own decisions and get the chance to get more money than in a current job.
-**Today**, we find the **opposite**.
-
-Internet have so much influence on them, you can open your business to big amount of customer inside and outside the borders, however the competition is huge.
-
-Due the amount, today entrepreneurs has created their **ecosystems**, which provide help and motivation.
-
-They are used to be **more transparent** than big corporates.
-
-.. note::
-  Always business
-  Internet has changed the things
-  Ecosystem
-
-    - Provided by others and for that purpose moreover of becoming a new businesses: Co-working spaces, Accelerators, Incubators
-
-    - Indirected and community: Ecosystem, Internet, Crowd funding, Startups providing affordable services, Open source
-
-----
+:data-x: -800
+:data-y: 1500
 
 Hang on, I haven't come to tell theory
 =======================================
 
-Internet is full of this and still works than Google
+Internet is full of this and still working better than Google
 
 ----
+
+:data-x: -2000
+:data-y: 1600
 
 Moreover I'm NOT currently an ENTREPRENEUR so, I'm NOT COOL
 ============================================================
 
 ----
 
+:data-x: -2000
+:data-y: 500
+
+
 But
 ========
 
-I've been in the middle of London Startup ecosystem for 0.5 years, discovering its world
+I moved to London and I spent 0.5 years observing entrepreneurs and its startup ecosystem
 
 and
 thereafter I've been working for **2 tech-startups** for **2 years**
 
 ----
+
+:data-x: 0
+:data-y: 1500
+:data-rotate-x: 120
 
 Frist one
 ==========
@@ -82,17 +79,22 @@ Frist one
 
 I joined as Software Engineer, Developer, DevOps, .... too long, so let's simplify
 
-"The guy" who has to create the product and do whatever the product needs to run
+**"The guy"** who had to create the product and do whatever the product needs to run
 
 .. note::
   Talk about my experience in iWaz.at
 
 ----
 
+:data-y: -2000
+:data-x: -3000
+:data-rotate-z: 720
+
+
 Second one
 ===========
 
-**Two founders** and a bunch of guys, they deserve that I call them "A TEAM"
+**Two founders** and a bunch of guys, they deserve that I call them **"A TEAM"**
 
 We take care, as well as the first one, of everything, but we can balance the work load, share the knowledge, discuss ideas and more!
 
@@ -101,12 +103,16 @@ We take care, as well as the first one, of everything, but we can balance the wo
 
 ----
 
+:data-rotate-x: -120
+
 My thoughts about working for a **startups**
 =============================================
 
 Through my experience in Startups, I've found ...
 
 ----
+
+:class: image
 
 Excitement
 ===========
@@ -115,6 +121,8 @@ Excitement
     :height: 400px
 
 ----
+
+:class: image
 
 Awesome company culture
 ========================
@@ -126,11 +134,37 @@ Awesome company culture
 
 ----
 
-People love what they are creating
-===================================
+:class: image
+
+People love what they do
+=========================
 
 .. image:: img/love.jpg
     :height: 400px
+
+----
+
+:data-rotate-y: 180
+
+What is my perception
+=======================
+
+The most of the tech-startups are quite ambitious
+
+Internet have so much influence on them, you can open your business to big amount of customer inside and outside the borders, however the competition is huge.
+
+Due the amount, today entrepreneurs has created their **ecosystems**, which provide help and motivation.
+
+They are used to be **more transparent** than big corporates.
+
+.. note::
+  Differences between old entrepreneurs and today ones
+  Internet has changed the things
+  Ecosystem
+
+    - Provided by others and for that purpose moreover of becoming a new businesses: Co-working spaces, Accelerators, Incubators
+
+    - Indirected and community: Ecosystem, Internet, Crowd funding, Startups providing affordable services, Open source
 
 ----
 
