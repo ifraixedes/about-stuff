@@ -23,3 +23,8 @@ h2 {
 p {
     font-size: 1.5em;
 }
+
+image {
+  text-align: center;
+  border-round: 30px;
+}
