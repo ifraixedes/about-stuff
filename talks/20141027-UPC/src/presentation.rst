@@ -1,4 +1,4 @@
-:css: presentation.css
+:css: css/presentation.css
 :skip-help: true
 
 .. title: My experience 2.5 years among tech startups
